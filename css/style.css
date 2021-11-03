@@ -1,0 +1,54 @@
+/* Police */
+
+@font-face
+{
+    font-family: "roboto";
+    src: url('../fonts/Raleway-VariableFont_wght.ttf');
+}
+
+/* Body police*/
+
+body
+{
+    font-family: "roboto", "sans-serif";
+}
+#bloc_page
+{
+    max-width: 1440px;
+    margin: auto;
+    justify-content: center;
+}
+
+/* Header */
+
+.header_logo
+{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-family: "Shrikhand","cursive";
+        font-weight: bold;
+}
+
+#localisation
+
+{
+    text-align: center;
+    
+}
+
+/* Logo */
+
+.header_log
+
+{   
+    text-align: center;
+    width: 150px;
+  
+}
+   
+    
+h1 
+{
+    text-align: center;
+}
