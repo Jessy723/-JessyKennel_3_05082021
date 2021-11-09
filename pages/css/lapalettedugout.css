@@ -36,11 +36,3 @@ body {
 h1 {
   text-align: center;
 }
-
-#logolocalisation {
-  width: 20px;
-  font-size: 15px;
-  border-radius: 10px 0px 0px 10px;
-  text-align: center;
-  padding: 12px;
-}
