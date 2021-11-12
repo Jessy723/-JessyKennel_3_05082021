@@ -62,17 +62,7 @@ h1 {
 }
 /* Reservez, bouton explorer*/
 
-h3 .sous_titre {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-  text-align: center;
-}
-.sous_titre {
+#sous_titre {
   font-weight: normal;
   font-size: 1.1rem;
   text-align: center;
@@ -91,9 +81,66 @@ h3 .sous_titre {
   z-index: 1;
 }
 
-.submitrecherche {
+.explorerestau {
   text-align: center;
   padding-top: 15px;
   color: white;
   font-weight: bold;
 }
+
+/* Fonctionnement*/
+
+.liste {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.bloc-fonctionnement {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.onglet-fonctionnement {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 10px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+.onglet-fonctionnement__ball {
+  position: relative;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356DC;
+  border-radius: 20px;
+}
+.onglet-fonctionnement .fas {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.onglet-fonctionnement__numb {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
+  color: white;
+}
+.onglet-fonctionnement__text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 27px;
+  margin: 0;
+
+  /* Restaurants */
+
+  
