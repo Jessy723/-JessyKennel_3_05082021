@@ -47,10 +47,15 @@ h1 {
 
 /* Localisation*/
 
-.cadrelocalisation {
+.cadre_localisation {
+  background: #ececec;
+  padding-bottom: 30px;
+}
+
+.localisation {
   background: #d3d3d3;
 }
-.logolocalisation {
+.logo_localisation {
   height: 50px;
   display: flex;
   justify-content: center;
@@ -59,6 +64,12 @@ h1 {
   color: black;
   font-weight: bold;
   font-size: 1rem;
+}
+.localisation_texte {
+  margin: 0 25px;
+}
+.localisation .fas {
+  margin-bottom: 2px;
 }
 /* Reservez, bouton explorer*/
 
@@ -262,4 +273,40 @@ h1 {
   right: 25px;
   top: 30px;
   opacity: 1;
+}
+
+/* Footer */
+
+.footer {
+  background: rgba(23, 23, 23, 0.8);
+  height: 200px;
+}
+.footer__1 {
+  margin: 0px 20px;
+}
+.footer__titre {
+  color: white;
+  font-family: "Shrikhand";
+  letter-spacing: 0.05rem;
+  margin: 0;
+  padding: 20px 0px 18px 0px;
+}
+.footer__3 {
+  margin: 8px 0;
+}
+.footer__3 .fas {
+  font-size: 0.7rem;
+  margin-right: 8px;
+}
+.footer__2 {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.footer__4 {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 1rem;
 }
