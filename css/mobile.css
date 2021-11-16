@@ -157,6 +157,12 @@ h1 {
   background: #ececec;
 }
 
+.titre_sections {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 50px 0 10px 20px;
+  margin: 0;
+}
 .bloc-restaurant {
   padding-bottom: 50px;
   display: flex;
