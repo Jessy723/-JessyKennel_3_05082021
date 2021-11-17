@@ -218,11 +218,9 @@ h1 {
 }
 .rest-prev .hoverheart:hover .fas.fa-heart {
   opacity: 1;
-  transition: 0.3s ease-in-out;
 }
 .rest-prev .hoverheart:hover .far.fa-heart {
   opacity: 0;
-  transition: 0.3s ease-in-out;
 }
 .rest-prev .fas.fa-heart {
   font-size: 1.5rem;
@@ -260,11 +258,9 @@ h1 {
 }
 .page-restaurant .hoverheart:hover .fas.fa-heart {
   opacity: 1;
-  transition: 0.3s ease-in-out;
 }
 .page-restaurant .hoverheart:hover .far.fa-heart {
   opacity: 0;
-  transition: 0.3s ease-in-out;
 }
 .page-restaurant .fas.fa-heart {
   font-size: 1.5rem;
