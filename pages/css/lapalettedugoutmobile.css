@@ -154,7 +154,7 @@ body {
   transition: 0.5s linear;
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 769px) {
   .onglet-fonct {
     width: 100%;
   }
@@ -245,7 +245,7 @@ body {
   opacity: 1;
 }
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 769px) {
   .bloc-fonctionnement {
     flex-direction: row;
     justify-content: space-between;
@@ -415,7 +415,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 769px) {
   .page-menu {
     display: flex;
     flex-direction: row;
@@ -499,5 +499,3 @@ body {
 * {
   box-sizing: border-box;
 }
-
-/*# sourceMappingURL=style.css.map */
