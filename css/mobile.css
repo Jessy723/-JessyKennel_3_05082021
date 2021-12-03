@@ -16,6 +16,54 @@ body {
 
 /* Spinner */
 
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  animation: fadeout 0.5s forwards;
+  animation-delay: 0s;
+  animation-delay: 2s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  width: 5em;
+  height: 5em;
+  border: 5px solid lightgrey;
+  border-top-color: lightgrey;
+  border-top-style: solid;
+  border-top-style: 5px;
+  border-top: 5px solid blue;
+  border-radius: 50%;
+  animation: spin 0.5s infinite;
+}
 /* Header */
 
 .header_logo {
