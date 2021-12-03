@@ -152,7 +152,22 @@ h1 {
   color: white;
   font-weight: bold;
 }
-
+.explorerestau:hover::after {
+  opacity: 1;
+}
+.explorerestau::after {
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#9356dc, #ae80e5);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms;
+}
 /* Fonctionnement*/
 
 .liste {
