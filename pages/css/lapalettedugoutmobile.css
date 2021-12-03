@@ -328,6 +328,14 @@ body {
   position: relative;
   overflow: hidden;
 }
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .page-menu__bloc:hover .page-menu__accetprix {
   width: calc(100% - 65px);
   transition: width 0.5s ease-in-out;
@@ -339,6 +347,7 @@ body {
 .page-menu__bloc:hover .fas.fa-check-circle {
   transform: rotate(360deg);
   transition: rotate 0.5s ease-in-out;
+  animation: spin 1s ease-in-out;
 }
 .page-menu__plat {
   margin: 15px 0px 5px 15px;
