@@ -170,6 +170,11 @@ h1 {
 }
 /* Fonctionnement*/
 
+.categories {
+  margin: 0;
+  padding: 1em;
+}
+
 .liste {
   padding-bottom: 50px;
   display: flex;
@@ -193,6 +198,7 @@ h1 {
   margin: 10px 20px 10px 25px;
   box-shadow: 2px 2px 7px #d3d3d3;
 }
+
 .onglet-fonctionnement__1 {
   position: relative;
   margin-left: -10px;
