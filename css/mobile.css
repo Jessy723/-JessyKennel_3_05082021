@@ -73,7 +73,8 @@ body {
   font-family: "Shrikhand", "cursive";
 }
 
-#localisation {
+#localisation,
+#titre {
   text-align: center;
 }
 
