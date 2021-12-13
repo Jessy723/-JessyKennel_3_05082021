@@ -59,7 +59,6 @@ body {
   border: 5px solid lightgrey;
   border-top-color: lightgrey;
   border-top-style: solid;
-  border-top-style: 5px;
   border-top: 5px solid blue;
   border-radius: 50%;
   animation: spin 0.5s infinite;
@@ -142,7 +141,7 @@ h1 {
   background: linear-gradient(#ff79da, #9356dc);
   box-shadow: 0 2px 4px #636363cc;
   z-index: 1;
-  box-shadow: 0px 3px 15px rgba(0.2);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
