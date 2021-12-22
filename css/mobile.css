@@ -170,6 +170,65 @@ h1 {
 }
 /* Fonctionnement*/
 
+.bloc-titre {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 50px 0 10px 20px;
+  margin: 0;
+}
+
+.bloc-fonctionnement {
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.onglet-fonct {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  background: #ececec;
+  border-radius: 20px;
+  margin: 10px 20px 10px 25px;
+  box-shadow: 2px 2px 7px #d3d3d3;
+}
+.onglet-fonct__ball {
+  position: relative;
+  margin-left: -10px;
+  height: 27px;
+  width: 27px;
+  background: #9356dc;
+  border-radius: 20px;
+}
+.onglet-fonct .fas {
+  width: 15px;
+  height: 15px;
+  color: #636363cc;
+  margin-left: 20px;
+}
+.onglet-fonct__numb {
+  margin: 4px 0 0 9px;
+  font-weight: bold;
+  color: white;
+}
+.onglet-fonct__text {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 27px;
+  margin: 0;
+}
+.onglet-fonct:hover {
+  background: #f2eafb;
+  transition: 0.5s linear;
+}
+.onglet-fonct:hover .fas {
+  color: #9356dc;
+  transition: 0.5s linear;
+}
+
 .categories {
   margin: 0;
   padding: 1em;
