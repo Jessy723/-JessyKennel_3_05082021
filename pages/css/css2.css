@@ -514,3 +514,17 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.animation {
+  opacity: 0;
+  animation: fadein 2s both;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
