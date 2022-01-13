@@ -168,7 +168,7 @@ h1 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(#9356dc, #ae80e5);
+  background: linear-gradient(#dc66e0, #df96ee);
   opacity: 0;
   z-index: -1;
   transition: opacity 250ms;
