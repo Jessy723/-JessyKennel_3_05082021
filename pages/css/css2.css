@@ -515,11 +515,21 @@ body {
   box-sizing: border-box;
 }
 
-.animation {
+.entree {
   opacity: 0;
   animation: fadein 2s both;
 }
+.plat {
+  opacity: 0;
+  animation: fadein 2s both;
+  animation-delay: 1s;
+}
 
+.dessert {
+  opacity: 0;
+  animation: fadein 2s both;
+  animation-delay: 2s;
+}
 @keyframes fadein {
   from {
     opacity: 0;
