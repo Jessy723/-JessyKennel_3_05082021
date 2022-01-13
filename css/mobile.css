@@ -56,10 +56,10 @@ body {
 .spinner {
   width: 5em;
   height: 5em;
-  border: 5px solid lightgrey;
-  border-top-color: lightgrey;
+  border: 5px solid skyblue;
+  border-top-color: skyblue;
   border-top-style: solid;
-  border-top: 5px solid blue;
+  border-top: 5px solid #ee82ee;
   border-radius: 50%;
   animation: spin 0.5s infinite;
 }
@@ -76,7 +76,12 @@ body {
 #titre {
   text-align: center;
 }
-
+@media screen and (min-width: 1024px) {
+  header {
+    font-size: 1.8rem;
+    top: 4.5%;
+  }
+}
 /* Logo */
 
 .header_log {
